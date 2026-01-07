@@ -25,6 +25,12 @@
 
 To get started with OM1, let's run the Spot agent. Spot uses your webcam to capture and label objects. These text captions are then sent to the LLM, which returns `movement`, `speech` and `face` action commands. These commands are displayed on WebSim along with basic timing and other debugging information.
 
+### 新手推荐：使用一键安装脚本（macOS）
+如果你是完全小白，可以用这个社区贡献的一键脚本自动安装并运行 Spot，包含中文提示和自动配置 API Key：
+```bash
+bash <(curl -s https://raw.githubusercontent.com/0xtuntun0x/om1-install-script/main/install_om1.sh)
+```
+
 ### Package Management and VENV
 
 You will need the [`uv` package manager](https://docs.astral.sh/uv/getting-started/installation/).
